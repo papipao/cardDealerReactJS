@@ -47,10 +47,15 @@ li {
   list-style: none;
 }
 
-/* .App {
+.Box {
+  width: 20em;
+  height: 20em;
+}
+
+.BoxContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-} */
+  flex: 1;
+}

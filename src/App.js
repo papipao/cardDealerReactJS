@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./app.css";
-import Roll from "./components/dice/Roll";
+import Deck from "./components/Deck/Deck";
 
-export class App extends Component {
+class App extends Component {
   render() {
     return (
-      <div>
-        <Roll />
+      <div className="App">
+        <Deck />
       </div>
     );
   }

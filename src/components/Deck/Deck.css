@@ -1,0 +1,29 @@
+.Deck-cardarea {
+  margin-top: 80px;
+}
+
+.Deck-title {
+  text-align: center;
+  color: #f4f4f4;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.btnF {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Deck button {
+  color: #fff;
+  background: none;
+  outline: none;
+  padding: 1em 2em;
+  cursor: pointer;
+}
+
+.Deck button:hover {
+  color: #000;
+  background: #fff;
+}
